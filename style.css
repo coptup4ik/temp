@@ -1,0 +1,191 @@
+@import "reset.css";
+
+body {
+    background-color: #1c1a1a;
+    font-family: Arial, sans-serif;
+}
+
+.top-banner {
+    width: 1600px;
+    height: 900px;
+    background: url("./Layer 21.png") no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    color: white;
+    padding: 500px 0 0 215px;
+}
+
+.logo {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.top-banner__description {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.top-banner__header {
+    font-size: 54px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.51);
+    display: inline-block;
+    padding: 40px;
+    border: 1px solid grey;
+    font-weight: 700;
+    margin-top: 26px;
+}
+
+.top-banner__header_color {
+    color: orange;
+}
+
+.content {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 70px 215px;
+    text-align: center;
+    background: url("./Layer 20.png");
+}
+
+.content__text {
+    color:  #333333;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.content__description {
+    padding: 35px 0;
+    color:  #4d4943;
+    font-size: 17px
+}
+
+.dash {
+    width: 60px;
+    background-color: orange;
+    height: 3px;
+    border:none;
+}
+
+.content__logo {
+    padding: 35px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.logo_color {
+    color: orange;
+    font-size: 40px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    margin-left: 70px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.menu__item_color {
+    color: orange;
+}
+
+.line {
+    background-color: orange;
+    height: 3px;
+    border:none;
+}
+
+.content__text_padding {
+    padding-top: 70px;
+}
+
+.content__footer {
+    display: flex;
+    margin-top: 50px;
+}
+.content__gallery {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery__item {
+    margin-bottom: 20px;
+    position: relative;
+    width: 270px;
+}
+
+.gallery__text {
+    position: absolute;
+    color: white;
+    background-color: #1c1a1a;
+    padding: 15px;
+    bottom: 0;
+    left: 0;
+    margin: 15px;
+}
+
+.gallery__photo {
+    vertical-align: middle;
+}
+
+.content__info {
+    width: 600px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.info__header{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.info__header_color {
+    color: orange;
+}
+
+.info__btn {
+    width: 175px;
+    color: white;
+    background-color: orange;
+    padding: 10px 0 ;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.banner {
+    width: 1600px;
+    height: 380px;
+    margin: 0 auto;
+    background: url("./Layer 22.png");
+    color: white;
+    text-align: center;
+}
+
+
+.banner__text {
+    padding: 170px 0 30px 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.banner__text_color {
+    color: orange;
+}
